@@ -72,18 +72,18 @@ cat ~/.ssh/id-ed25519.pub
 8. Click Add SSH key.
 9. If prompted, confirm access to your account on GitHub.
 
-How to push:
-Initialize Git (if not already done): Navigate to your project directory in the terminal and run:    git init
-Add Files to Staging: Stage the changes you want to commit. To add all new or modified files:
+* How to push:
+1. Initialize Git (if not already done): Navigate to your project directory in the terminal and run:    git init
+2. Add Files to Staging: Stage the changes you want to commit. To add all new or modified files:
     git add . 
-To add specific files:
+3. To add specific files:
        git add <filename>
-Commit Changes: Create a commit, which is a snapshot of your staged changes with a descriptive message:
+4. Commit Changes: Create a commit, which is a snapshot of your staged changes with a descriptive message:
           git commit -m "Your commit message"
-Connect to Remote Repository (if not already done): If you are pushing to a new GitHub repository, you need to link your local repository to the remote one. Get the HTTPS or SSH URL from your GitHub repository and run:
+5. Connect to Remote Repository (if not already done): If you are pushing to a new GitHub repository, you need to link your local repository to the remote one. Get the HTTPS or SSH URL from your GitHub repository and run:
              git remote add origin <remote_repository_url>
-ush Changes: Upload your committed changes from your local branch to the remote repository on GitHub:
+6. push Changes: Upload your committed changes from your local branch to the remote repository on GitHub:
            git push origin <your_branch_name>
-Git Pull: 
-Fetch and Merge: To update your local repository with changes from the remote, including new commits and updates, run:
+* Git Pull: 
+1. Fetch and Merge: To update your local repository with changes from the remote, including new commits and updates, run:
             git pull origin <your_branch_name>

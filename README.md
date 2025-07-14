@@ -1,34 +1,34 @@
-What is Vasion Control:
-Version Control is a system that keep track and mange changes made to a file particularly source code over time.
+* What is Vasion Control:
+1. Version Control is a system that keep track and mange changes made to a file particularly source code over time.
 
-What is the use of Version Control:
-Version control systems allow multiple people to work on the same project simultaneously without overwriting each other's work. 
-They enable teams to merge changes from different developers, making it easier to combine individual contributions into a cohesive whole. 
-Tools like Git, GitHub, and GitLab provide features like branching, merging, and pull requests to streamline collaborative workflows. 
+* What is the use of Version Control:
+* Version control systems allow multiple people to work on the same project simultaneously without overwriting each other's work. 
+* They enable teams to merge changes from different developers, making it easier to combine individual contributions into a cohesive whole. 
+* Tools like Git, GitHub, and GitLab provide features like branching, merging, and pull requests to streamline collaborative workflows. 
 
-What is GIT
-GIT is a distribution version control system that track version of system.
+* What is GIT
+* GIT is a distribution version control system that track version of system.
 
-What is GITHUB
-GITHUB is a webase plateform  that provid version control and collaboration tools for software developers.
+* What is GITHUB
+* GITHUB is a webase plateform  that provid version control and collaboration tools for software developers.
 
-Different between GIT and  GITHUB
-GIT:
-Git is managed by the Linux Foundation.
-Git is open source
-Git is installed locally
-Git is free;
+* Different between GIT and  GITHUB
+1. GIT:
+* Git is managed by the Linux Foundation.
+* Git is open source
+* Git is installed locally
+* Git is free;
 
-GITHUB:
-GitHub is owned by Microsoft.
-GitHub is proprietary.
-GitHub is cloud-based.
-GitHub isn't.
+2. GITHUB:
+* GitHub is owned by Microsoft.
+* GitHub is proprietary.
+* GitHub is cloud-based.
+* GitHub isn't.
 
 
-COMPREHENSIVE GIT AND GITHUB SETUP
-FOR GEGINNER:
-To get started with Git and GitHub as a beginner, you'll need to install Git, create a GitHub account, and then link the two. This involves initializing a local repository, adding files, stagingchanges, committing them, and then pushing to a remote repository on GitHub. 
+* COMPREHENSIVE GIT AND GITHUB SETUP
+* FOR GEGINNER:
+* To get started with Git and GitHub as a beginner, you'll need to install Git, create a GitHub account, and then link the two. This involves initializing a local repository, adding files, stagingchanges, committing them, and then pushing to a remote repository on GitHub. 
 
 1. Install GIT:
 sudo apt install git 
@@ -39,24 +39,24 @@ Navigate to the GitHub website and create a new account.
 Follow the prompts to set up your username, email, and password. 
 
 3.  Configure Git:
-Open your terminal or Git Bash and Set your username and email. 
-git config --global user.name "Your Name"
-git config --global user.email "your.email@example.com"
+* Open your terminal or Git Bash and Set your username and email. 
+* git config --global user.name "Your Name"
+* git config --global user.email "your.email@example.com"
 
-Start the ssh-agent in the background using.
-eval "$(ssh-agent -s)"
-> Agent pid 59566
+* Start the ssh-agent in the background using.
+* eval "$(ssh-agent -s)"
+* > Agent pid 59566
 
-Add your SSH private key to the ssh-agent.
-ssh-add ~/.ssh/id-ed25519
+* Add your SSH private key to the ssh-agent.
+* ssh-add ~/.ssh/id-ed25519
 
-When you are prompted, touch the button on your hardware security key.
-When you are prompted to "Enter a file in which to save the key," press Enter to accept the default file location.
-When you are prompted to type a passphrase, press Enter.
+* When you are prompted, touch the button on your hardware security key.
+* When you are prompted to "Enter a file in which to save the key," press Enter to accept the default file location.
+* When you are prompted to type a passphrase, press Enter.
 
-Add the SSH public key to your account on GitHub. 
+* Add the SSH public key to your account on GitHub. 
 
-Before adding a new SSH key to your account on GitHub.com, complete the following steps.
+* Before adding a new SSH key to your account on GitHub.com, complete the following steps.
 1. Check for existing SSH keys.
 2. Generate a new SSH key and add it to your machine's SSH agent.
 
